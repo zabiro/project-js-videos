@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto javascritp</title>
+    <!--estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+  
+    <!--Jqwery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+     <!--Moment js-->
+     <script  src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+     <script  src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+    <!--Mi scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+   
+
+
+</head>
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+
+
+    </div>
+    <section id="global">
+        <!--Cabezera-->
+        <header>
+            <div id="logo">
+                <h1> Proyecto JS </h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul >
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="clock.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <!--Contenido-->
+        <section id="contenido">
+            <div id="box">
+               <!--Cargar Reloj-->
+               <div id="reloj">
+                    
+               </div>
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nulla vestibulum ultrices sapien,</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="emael">Correo</label>
+                        <input type="text" name="email" id="">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="pasword" id="">
+                        <input type="submit" value="Entrar"></button>
+                        
+                    </form>
+                </div>
+
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer id="footer">
+        
+        Curso de javascritp
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+    
+</body>
+</html>
